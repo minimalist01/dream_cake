@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__nav">
+                <div class="header__nav__row">
+                    <div class="header__nav__logo">
+                        <img src="./img/Logo.png" alt="company logo">
+                    </div>
+                    <nav class="header__nav__menu">
+                        <ul class="header__nav__list">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Assortment</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__nav__cart">
+                        <div class="header__nav__cart-basket">
+                            <img src="./img/header__cart.svg" alt="cart">
+                            <span class="header__nav__cart-num">0</span>
+                        </div>
+                        <div class="header__nav__cart__sum">
+                            <img src="./img/header__line.svg" alt="">
+                            <span>0$</span>
+                        </div>
+                        <div class="cart__box">
+                            <ul class="cart__box-list">
+                                <li class="cart__product">
+                                    <img class="cart__product__img">
+                
+                                    </img>
+                                    <input class="cart__product__count" type="number" value="0">
+                
+                                    </input>
+                                    <div class="cart__product__price">
+                                     <span>0</span>$   
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header__nav__burger">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            
+            <img class="header__content__bg-img" src="./img/header__miyata.png" alt="">
+            <div class="header__content">
+                <div class="header__content__text">
+                    <h1 class=" wow animate__animated animate__fadeInLeft"><span>Natural</span> classic cakes & desserts</h1>
+                    <div class="wow animate__animated animate__fadeInLeft header__content__text-btn">
+                        Make a choice
+                    </div>
+                </div>
+            </div>
+            <img class="header__content__wave" src="./img/header__wave.png" alt="">
+        </div>
+    </header>
+
+    <section class="assortment">
+        <div class="container">
+            <div class="assortment__title wow title  animate__animated animate__fadeInUp" data-wow-offset = "300">
+                Assortement
+            </div>
+            <div class="assortment__slider wow animate__animated animate__fadeInUp" data-wow-offset = "300">
+                <div class="assortment__slider-item-1 assortment__slider-item">
+                    <div class="assortement__item-img">
+                        <img src="./img/assortement__1.webp" alt="">
+                    </div>
+                    <div class="assortement__item-title">
+                        Cupcakes
+                    </div>
+                </div>
+                <div class="assortment__slider-item-2 assortment__slider-item">
+                    <div class="assortement__item-img">
+                        <img src="./img/assortement__2.webp" alt="">
+                    </div>
+                    <div class="assortement__item-title">
+                        Cakes
+                    </div>
+                </div>
+                <div class="assortment__slider-item-3 assortment__slider-item">
+                    <div class="assortement__item-img">
+                        <img src="./img/assortement__3.webp" alt="">
+                    </div>
+                    <div class="assortement__item-title">
+                        Macaroon
+                    </div>
+                </div>
+                <div class="assortment__slider-item-4 assortment__slider-item">
+                    <div class="assortement__item-img">
+                        <img src="./img/assortement__4.webp" alt="">
+                    </div>
+                    <div class="assortement__item-title">
+                        Wedding Cakes
+                    </div>
+                </div>
+                <div class="assortment__slider-item-5 assortment__slider-item">
+                    <div class="assortement__item-img">
+                        <img src="./img/assortement__1.webp" alt="">
+                    </div>
+                    <div class="assortement__item-title">
+                        Cupcakes
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reccomendation">
+        <div class="container">
+            <div class="reccomendation__title title wow animate__animated animate__fadeInUp" data-wow-offset = "300">
+                Today’s recommendation
+            </div>
+            <div class="reccomendation__slider wow animate__animated animate__fadeInUp" data-wow-offset = "300">
+                <div class="reccomendation__item-wrapper">
+                    <div class="reccomendation__item">
+                        <div class="recomendation__item__box">
+                            <div class="reccomendation__item__image-title">
+                                <div class="reccomendation__item-img">
+                                    <img class="rec-img" src="./img/rec-1.webp" alt="cake">
+                                </div>
+                                <div class="reccomendation__item-title">
+                                    Cheesecake
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reccomendation__item__content">
+                            <div class="reccomendation__item__content__price">
+                                <span>4.99$</span>
+                            </div>
+                            <div class="reccomendation__item__content__count">
+                                <img src="./img/rec-cake.svg" alt="">
+                                <span>1 piece</span>
+                            </div>
+                            <div class="reccomendation__item__content__descr">
+                                <p>A dish of European and American cuisine, which is a cheese dessert from cheese casserole to souffle cakes. The first cheesecakes appeared in ancient Greece</p>
+                                <p>Cheesecakes in America and Canada are made from Philadelphia cheese and its analogues. Sugar, eggs, cream and fruit are also used. The mixture of these ingredients is based on cookies or sweet crackers.</p>
+                            </div>
+                                <div class="reccomendation__item__content__stars">
+                                    <div class="rating rating_set">
+                                        <div class="rating__body">
+                                            <div class="rating__active">
+                                                <div class="rating__items">
+                                                    <input class="rating__item" type="radio" name="rating" value="1">
+                                                    <input class="rating__item" type="radio" name="rating" value="2">
+                                                    <input class="rating__item" type="radio" name="rating" value="3">
+                                                    <input class="rating__item" type="radio" name="rating" value="4">
+                                                    <input class="rating__item" type="radio" name="rating" value="5">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="rating__value">3.8</div>
+                                    </div>
+                                </div>
+                            <div class="reccomendation__item__content__btn">
+                                <a href="#">Order now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reccomendation__item-wrapper">
+                    <div class="reccomendation__item">
+                        <div class="recomendation__item__box">
+                            <div class="reccomendation__item__image-title">
+                                <div class="reccomendation__item-img">
+                                    <img src="./img/rec-2.webp" alt="cake">
+                                </div>
+                                <div class="reccomendation__item-title">
+                                    Tiramisu cake
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reccomendation__item__content">
+                            <div class="reccomendation__item__content__price">
+                                <span>6.99$</span>
+                            </div>
+                            <div class="reccomendation__item__content__count">
+                                <img src="./img/rec-cake.svg" alt="">
+                                <span>1 piece</span>
+                            </div>
+                            <div class="reccomendation__item__content__descr">
+                                <p>A dish of European and American cuisine, which is a cheese dessert from cheese casserole to souffle cakes. The first cheesecakes appeared in ancient Greece</p>
+                                <p>Cheesecakes in America and Canada are made from Philadelphia cheese and its analogues. Sugar, eggs, cream and fruit are also used. The mixture of these ingredients is based on cookies or sweet crackers.</p>
+                            </div>
+                                <div class="reccomendation__item__content__stars">
+                                    <div class="rating rating_set">
+                                        <div class="rating__body">
+                                            <div class="rating__active">
+                                                <div class="rating__items">
+                                                    <input class="rating__item" type="radio" name="rating" value="1">
+                                                    <input class="rating__item" type="radio" name="rating" value="2">
+                                                    <input class="rating__item" type="radio" name="rating" value="3">
+                                                    <input class="rating__item" type="radio" name="rating" value="4">
+                                                    <input class="rating__item" type="radio" name="rating" value="5">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="rating__value">3.9</div>
+                                    </div>
+                                </div>
+                            <div class="reccomendation__item__content__btn">
+                                <a href="#">Order now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reccomendation__item-wrapper">
+                    <div class="reccomendation__item">
+                        <div class="reccomendation__item__image-title">
+                            <div class="reccomendation__item-img">
+                                <img src="./img/rec-3.webp" alt="cake">
+                            </div>
+                            <div class="reccomendation__item-title">
+                                Sponge cake
+                            </div>
+                        </div>
+                        <div class="reccomendation__item__content">
+                            <div class="reccomendation__item__content__price">
+                                <span>3.99$</span>
+                            </div>
+                            <div class="reccomendation__item__content__count">
+                                <img src="./img/rec-cake.svg" alt="">
+                                <span>1 piece</span>
+                            </div>
+                            <div class="reccomendation__item__content__descr">
+                                <p>A dish of European and American cuisine, which is a cheese dessert from cheese casserole to souffle cakes. The first cheesecakes appeared in ancient Greece</p>
+                                <p>Cheesecakes in America and Canada are made from Philadelphia cheese and its analogues. Sugar, eggs, cream and fruit are also used. The mixture of these ingredients is based on cookies or sweet crackers.</p>
+                            </div>
+                                <div class="reccomendation__item__content__stars">
+                                    <div class="rating rating_set">
+                                        <div class="rating__body">
+                                            <div class="rating__active">
+                                                <div class="rating__items">
+                                                    <input class="rating__item" type="radio" name="rating" value="1">
+                                                    <input class="rating__item" type="radio" name="rating" value="2">
+                                                    <input class="rating__item" type="radio" name="rating" value="3">
+                                                    <input class="rating__item" type="radio" name="rating" value="4">
+                                                    <input class="rating__item" type="radio" name="rating" value="5">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="rating__value">4.5</div>
+                                    </div>
+                                </div>
+                            <div class="reccomendation__item__content__btn">
+                                <a href="#">Order now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reccomendation__item-wrapper">
+                    <div class="reccomendation__item">
+                        <div class="recomendation__item__box">
+                            <div class="reccomendation__item__image-title">
+                                <div class="reccomendation__item-img">
+                                    <img src="./img/rec-4.webp" alt="cake">
+                                </div>
+                                <div class="reccomendation__item-title">
+                                    Rainbow cake
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reccomendation__item__content">
+                            <div class="reccomendation__item__content__price">
+                                <span>5.99$</span>
+                            </div>
+                            <div class="reccomendation__item__content__count">
+                                <img src="./img/rec-cake.svg" alt="">
+                                <span>1 piece</span>
+                            </div>
+                            <div class="reccomendation__item__content__descr">
+                                <p>A dish of European and American cuisine, which is a cheese dessert from cheese casserole to souffle cakes. The first cheesecakes appeared in ancient Greece</p>
+                                <p>Cheesecakes in America and Canada are made from Philadelphia cheese and its analogues. Sugar, eggs, cream and fruit are also used. The mixture of these ingredients is based on cookies or sweet crackers.</p>
+                            </div>
+                                <div class="reccomendation__item__content__stars">
+                                    <div class="rating rating_set">
+                                        <div class="rating__body">
+                                            <div class="rating__active">
+                                                <div class="rating__items">
+                                                    <input class="rating__item" type="radio" name="rating" value="1">
+                                                    <input class="rating__item" type="radio" name="rating" value="2">
+                                                    <input class="rating__item" type="radio" name="rating" value="3">
+                                                    <input class="rating__item" type="radio" name="rating" value="4">
+                                                    <input class="rating__item" type="radio" name="rating" value="5">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="rating__value">4.1</div>
+                                    </div>
+                                </div>
+                            <div class="reccomendation__item__content__btn button">
+                                <a href="#">Order now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team">
+        <div class="container">
+            <div class="team__title title wow animate__animated animate__fadeInUp" data-wow-offset = "100">
+                Our teams
+            </div>
+            <div class="team__box">
+                <div class="team__left">
+                    <div class="team__left__img-1 team-limit wow animate__animated animate__fadeInLeft">
+                        <img src="./img/t_1.webp" alt="">
+                    </div>
+                    <div class="team__left__bio team-limit wow animate__animated animate__fadeInLeft">
+                        <div class="team__left__bio-title">
+                            Glinskaya Liza
+                        </div>
+                        <div class="team__left__bio-descr">
+                            Behind me - a victory in the television culinary show "MasterChef-2", studying at the French culinary school Le Cordon Bleu and my first pastry master class, after which I could not stop ...
+                        </div>
+                    </div>
+                    <div class="team__left__img-2 wow animate__animated animate__fadeInLeft">
+                        <img src="./img/t_3.webp" alt="">
+                    </div>
+                </div>
+                <div class="team__lines">
+                    <img class="team__line-1" src="./img/team_line_1.svg" alt="">
+                    <img class="team__line-2" src="./img/team_line_2.svg" alt="">
+                    <img class="team__line-3" src="./img/team_line_3.svg" alt="">
+                </div>
+                <div class="team__right">
+                    <div class="team__right__bio-1 wow animate__animated animate__fadeInRight">
+                        <div class="team__right__bio-title">
+                            Ekaterina Solotsinskaya
+                        </div>
+                        <div class="team__right__bio-descr">
+                            The girl liked the kitchen since childhood, and during her student years she earned money by making confectionery to order. Later she took part in "MasterChef" -6, reached the superfinal. After the project, Katya began teaching a course in confectionery at the Hector Jimenez-Bravo Academy of Culinary and Confectionery Arts.
+                        </div>
+                    </div>
+                    <div class="team__right__img team-limit wow animate__animated animate__fadeInRight">
+                        <img src="./img/t_2.webp" alt="">
+                    </div>
+                    <div class="team__right__bio-2 wow animate__animated animate__fadeInRight">
+                        <div class="team__right__bio-title">
+                            Olga Martynovskaya
+                        </div>
+                        <div class="team__right__bio-descr">
+                            Behind me - a victory in the television culinary show "MasterChef-2", studying at the French culinary school Le Cordon Bleu and my first pastry master class, after which I could not stop ...
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="look">
+        <div class="container">
+            <div class="look__title title wow animate__animated animate__fadeInUp" data-wow-offset="300">
+                Just look at these cakes
+            </div>
+            <div class="look__mini-slider wow animate__animated animate__fadeInUp" data-wow-offset="300">
+                <div class="mini-slider__item"><span>Cheesecakes</span></div>
+                <div class="mini-slider__item"><span>Biscuit</span></div>
+                <div class="mini-slider__item"><span>Wafer</span></div>
+                <div class="mini-slider__item"><span>Yogurt</span></div>
+            </div>
+            <div class="look__slider wow animate__animated animate__fadeInUp" data-wow-offset="300">
+                <div class="look__item">
+                    <div class="look__item__img">
+                        <img src="./img/l_1.webp" alt="">
+                    </div>
+                    <div class="look__item__title">
+                        Milk girl cake
+                    </div>
+                    <div class="look__item__descr">
+                        The basis is condensed milk, so it turns out with a delicate creamy taste.
+                    </div>
+                    <div class="look__item__btn button">
+                        <a href="#">Order now</a>
+                    </div>
+                </div>
+                <div class="look__item">
+                    <div class="look__item__img">
+                        <img src="./img/l_2.webp" alt="">
+                    </div>
+                    <div class="look__item__title">
+                        Snow Queen Cake
+                    </div>
+                    <div class="look__item__descr">
+                        Delicious during the holidays! This cake is designed to make you feel fabulous.
+                    </div>
+                    <div class="look__item__btn button">
+                        <a href="#">Order now</a>
+                    </div>
+                </div>
+                <div class="look__item">
+                    <div class="look__item__img">
+                        <img src="./img/l_3.webp" alt="">
+                    </div>
+                    <div class="look__item__title">
+                        Kit-kat cake
+                    </div>
+                    <div class="look__item__descr">
+                        This cake is a dream for a sweet tooth. Biscuit and sweets in one dessert, what could be better!
+                    </div>
+                    <div class="look__item__btn button">
+                        <a href="#">Order now</a>
+                    </div>
+                </div>
+                <div class="look__item">
+                    <div class="look__item__img">
+                        <img src="./img/l_4.webp" alt="">
+                    </div>
+                    <div class="look__item__title">
+                        Chocolate mint cake
+                    </div>
+                    <div class="look__item__descr">
+                        A breath of freshness and a hint of chocolate flavor is what you should try!
+                    </div>
+                    <div class="look__item__btn button">
+                        <a href="#">Order now</a>
+                    </div>
+                </div>
+                <div class="look__item">
+                    <div class="look__item__img">
+                        <img src="./img/l_1.webp" alt="">
+                    </div>
+                    <div class="look__item__title">
+                        Milk girl cake
+                    </div>
+                    <div class="look__item__descr">
+                        The basis is condensed milk, so it turns out with a delicate creamy taste.
+                    </div>
+                    <div class="look__item__btn button">
+                        <a href="#">Order now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <section class="stages">
+        <div class="container">
+            <div class="stages__title title wow animate__animated animate__fadeInUp" data-wow-offset="300">
+                Stages
+            </div>
+            <div class="stages__subtitle wow animate__animated animate__fadeInUp" data-wow-offset="250">
+                We carefully approach each order. Each product is made with soul by caring hands of professionals. Products are not frozen, they come straight from the oven to you.
+            </div>
+            <div class="stages__scheme">
+                <div class="stages__scheme-left">
+                    <div class="stages__scheme__item scheme-left-1 wow animate__animated animate__fadeInLeft" data-wow-delay="2s">
+                        We coordinate and transfer all information to confectioners. We do grocery shopping.
+                    </div>
+                    <div class="stages__scheme__item scheme-left-2 wow animate__animated animate__fadeInLeft" data-wow-delay="3s">
+                        We coordinate and transfer all information to confectioners. We do grocery shopping.
+                    </div>
+                </div>
+                <div class="stages__scheme__images wow animate__animated animate__fadeInUpBig">
+                    <img src="./img/schem_tort.svg" alt="">
+                    <img class="scheme__images-arrow" src="./img/schem_down-arrow.svg" alt="">
+                    <img src="./img/schem_tort.svg" alt="">
+                    <img class="scheme__images-arrow" src="./img/schem_down-arrow.svg" alt="">
+                    <img src="./img/schem_tort.svg" alt="">
+                    <img class="scheme__images-arrow" src="./img/schem_down-arrow.svg" alt="">
+                    <img src="./img/schem_tort.svg" alt="">
+                    <img class="scheme__images-arrow" src="./img/schem_down-arrow.svg" alt="">
+                    <img class="scheme__images-cake" src="./img/schem_cake.webp" alt="" >
+                </div>
+                <div class="stages__scheme-right">
+                    <div class="stages__scheme__item scheme-right-1 wow animate__animated animate__fadeInRight" data-wow-delay="1s">
+                        <span>You leave a request on our website, we call you back and discuss the details of your order.</span>
+                    </div>
+                    <div class="stages__scheme__item scheme-right-2 wow animate__animated animate__fadeInRight" data-wow-delay="2.5s">
+                        On the appointed day we make the order, observing all the details.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="about__title title wow animate__animated animate__fadeInUp" data-wow-offset="300">
+                About us
+            </div>
+            <div class="about__content">
+                <div class="about__content__row-1">
+                    <div class="about__content__row-1__text wow animate__animated animate__fadeInLeft">
+                        Since 1985, Dream Cakes has been baking delicious cakes from scratch, beautifully packaging them, and delivering them to our customers' doors. Over the years, we have delivered tens of thousands of delicious cakes throughout the country. We deliver for birthdays, corporate parties and holidays. We baked for clients, family and friends. And each cake is carefully made from scratch with only the finest, all-natural ingredients, just like you would use at home.
+                    </div>
+                    <div class="about__content__row-1__images">
+                        <div class="about__img-box wow animate__animated animate__zoomIn" data-wow-delay="1s"><img class="about-img-1" src="./img/about_1.webp" alt=""></div>
+                        <div class="about__img-box about__img-box-2 wow animate__animated animate__zoomIn" data-wow-delay="1.5s"><img class="about-img-2" src="./img/about_2.webp" alt=""></div>
+                    </div>
+                </div>
+                <div class="about__content__row-2">
+                    <div class="about__content__row-2__text-content">
+                        <div class="about__content__row-2__title wow animate__animated animate__fadeInLeft" data-wow-delay="2s">
+                            and that's when we got to thinking
+                        </div>
+                        <div class="about__content__row-2__text wow animate__animated animate__fadeInLeft" data-wow-delay="3s">
+                            If we can make delicious homemade cakes, what about delicious homemade cookies? And sumptuous cheese straws? And what about cupcakes? The rest is baking history.
+                        </div>
+                    </div>
+                    <div class="about__content__row-2__images">
+                        <div class="about__img-box wow animate__animated animate__zoomIn" data-wow-delay="3.5s"><img class="about-img-3" src="./img/about_3.webp" alt=""></div>
+                        <div class="about__img-box about__img-box-2 wow animate__animated animate__zoomIn" data-wow-delay="4s"><img class="about-img-4" src="./img/about_4.webp" alt=""></div>
+                    </div>
+                </div>
+                <div class="about__content__hide-btn button">
+                    <a href="#">Read all >></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="try">
+        <div class="container">
+            <div class="try__title title wow animate__animated animate__fadeInUp" data-wow-offset="300">
+                Try our amazing cupcakes
+            </div>
+            <div class="try__mini-slider wow animate__animated animate__fadeInUp" data-wow-offset="300">
+                <div class="mini-slider__item"><span>Chocolate</span></div>
+                <div class="mini-slider__item"><span>Fruity</span></div>
+                <div class="mini-slider__item"><span>Curd</span></div>
+                <div class="mini-slider__item"><span>Yogurt</span></div>
+            </div>
+            <div class="try__slider wow animate__animated animate__fadeInUp" data-wow-offset="300">
+                <div class="try__item">
+                    <div class="try__item__img">
+                        <img src="./img/try_1.webp" alt="">
+                    </div>
+                    <div class="try__item__title">
+                        Cupcakes "Red Velvet"
+                    </div>
+                    <div class="try__item__descr">
+                        The basis is condensed milk, so it turns out with a delicate creamy taste.
+                    </div>
+                    <div class="try__item__btn button">
+                        <a href="#">Order now</a>
+                    </div>
+                </div>
+                <div class="try__item">
+                    <div class="try__item__img">
+                        <img src="./img/try_2.webp" alt="">
+                    </div>
+                    <div class="try__item__title">
+                        Cupcakes "Rainbow"
+                    </div>
+                    <div class="try__item__descr">
+                        The basis is condensed milk, so it turns out with a delicate creamy taste.
+                    </div>
+                    <div class="try__item__btn button">
+                        <a href="#">Order now</a>
+                    </div>
+                </div>
+                <div class="try__item">
+                    <div class="try__item__img">
+                        <img src="./img/try_3.webp" alt="">
+                    </div>
+                    <div class="try__item__title">
+                        Cupcakes “Blue Velvet”
+                    </div>
+                    <div class="try__item__descr">
+                        The basis is condensed milk, so it turns out with a delicate creamy taste.
+                    </div>
+                    <div class="try__item__btn button">
+                        <a href="#">Order now</a>
+                    </div>
+                </div>
+                <div class="try__item">
+                    <div class="try__item__img">
+                        <img src="./img/try_4.webp" alt="">
+                    </div>
+                    <div class="try__item__title">
+                        Cupcakes “Valentine”
+                    </div>
+                    <div class="try__item__descr">
+                        The basis is condensed milk, so it turns out with a delicate creamy taste.
+                    </div>
+                    <div class="try__item__btn button">
+                        <a href="#">Order now</a>
+                    </div>
+                </div>
+                <div class="try__item">
+                    <div class="try__item__img">
+                        <img src="./img/try_2.webp" alt="">
+                    </div>
+                    <div class="try__item__title">
+                        Cupcakes "Rainbow"
+                    </div>
+                    <div class="try__item__descr">
+                        The basis is condensed milk, so it turns out with a delicate creamy taste.
+                    </div>
+                    <div class="try__item__btn button">
+                        <a href="#">Order now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <section class="order-line">
+        <div class="order-line__bg">
+            <div class="container">
+                <div class="order-line__title wow animate__animated animate__fadeInLeft">
+                    Order the cake of your dreams!
+                </div>
+                <div class="order-line__text wow animate__animated animate__fadeInRight" data-wow-delay="1s">
+                    If you have already found a photo of your dream cake, we will be happy to bring it to life. Just send a photo to us, our operator will call you back and clarify the details of the order.
+                </div>
+                <div class="order-line__form-box">
+                    <input class="wow animate__animated animate__fadeInUp" data-wow-delay="1.8s" placeholder="your phone number.." type="number">
+                    <button class="wow animate__animated animate__fadeInUp" data-wow-delay="1.8s">Send</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <div class="container">
+            <div class="benefits__title title wow animate__animated animate__fadeInUp" data-wow-offset="300">
+                So what are our benefits?
+            </div>
+            <div class="benefits__slider wow animate__animated animate__fadeInUp" data-wow-offset="300">
+                <div class="benefits__item">
+                    <div class="benefits__item__img">
+                        <img src="./img/benefits_1.svg" alt="">
+                    </div>
+                    <div class="benefits__item__title">
+                        Large range of goods
+                    </div>
+                    <div class="benefits__item__text">
+                        You can order a cake from us for almost any holiday - be it New Year or Defender of the Fatherland Day.
+                    </div>
+                </div>
+                <div class="benefits__item">
+                    <div class="benefits__item__img">
+                        <img src="./img/benefits_2.svg" alt="">
+                    </div>
+                    <div class="benefits__item__title">
+                        Made with high quality by professionals
+                    </div>
+                    <div class="benefits__item__text">
+                        They create unique culinary delights that can rightly be called masterpieces.
+                    </div>
+                </div>
+                <div class="benefits__item">
+                    <div class="benefits__item__img">
+                        <img src="./img/benefits_3.svg" alt="">
+                    </div>
+                    <div class="benefits__item__title">
+                        Excellent reviews
+                    </div>
+                    <div class="benefits__item__text">
+                        We are recommended to friends and acquaintances: we make confectionery with great taste and reasonable price.
+                    </div>
+                </div>
+                <div class="benefits__item">
+                    <div class="benefits__item__img">
+                        <img src="./img/benefits_4.svg" alt="">
+                    </div>
+                    <div class="benefits__item__title">
+                        Fast delivery
+                    </div>
+                    <div class="benefits__item__text">
+                        If we do not bring your order in 2 minutes, you will enjoy it for free.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bar">
+        <div class="container">
+            <div class="bar__title title wow animate__animated animate__fadeInUp" data-wow-offset="300">
+                Candy Bar
+            </div>
+            <div class="bar__slider wow animate__animated animate__fadeInUp" data-wow-offset="300">
+                <div class="bar__item">
+                    <img src="./img/bar_1.webp" alt="">
+                </div>
+                <div class="bar__item">
+                    <img src="./img/bar_2.webp" alt="">
+                </div>
+                <div class="bar__item">
+                    <img src="./img/bar_3.webp" alt="">
+                </div>
+                <div class="bar__item">
+                    <img src="./img/bar_1.webp" alt="">
+                </div>
+                <div class="bar__item">
+                    <img src="./img/bar_2.webp" alt="">
+                </div>
+                <div class="bar__item">
+                    <img src="./img/bar_3.webp" alt="">
+                </div>
+            </div>
+            <div class="bar__btn wow animate__animated animate__zoomIn" data-wow-delay="1s">
+                <a href="#">Make a choice</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="review">
+        <div class="container">
+            <div class="review__title title wow animate__animated animate__fadeInUp" data-wow-offset="300">
+                Reviews
+            </div>
+            <div class="review__box">
+                <div class="review__item wow animate__animated animate__fadeInUpBig" data-wow-offset="100">
+                    <div class="review__text">
+                        We express our gratitude for the wonderful cake "Three Ants" banquet! As always delicious and amazing! Ordering and delivery service is excellent. Thank you very much for continuing to delight us! All guests were happy!! Happy New Year to you!!!
+                    </div>
+                    <div class="review__item__down-content">
+                        <div class="review__avatar">
+                            <img src="./img/review_avatar.svg" alt="">
+                        </div>
+                        <div class="review__name">
+                            Anna Onegin
+                        </div>
+                        <div class="review__data">
+                            28.12.2021
+                        </div>
+                    </div>
+                </div>
+                <div class="review__item wow animate__animated animate__fadeInDownBig" data-wow-offset="100">
+                    <div class="review__text">
+                        We ordered a cake for a children's party, took the "Haunted House" with Medovik filling. I can say that it was that rare case when the children ate the whole cake!!! Beautiful VERY and tasty too VERY! From now on we will order only there and we advise everyone!!! THANK YOU
+                    </div>
+                    <div class="review__item__down-content">
+                        <div class="review__avatar">
+                            <img src="./img/review_avatar.svg" alt="">
+                        </div>
+                        <div class="review__name">
+                            Victor Zaharev
+                        </div>
+                        <div class="review__data">
+                            11.01.2021
+                        </div>
+                    </div>
+                </div>
+                <div class="review__item wow animate__animated animate__fadeInUpBig" data-wow-offset="100">
+                    <div class="review__text">
+                        I ordered two birthday cakes. It was very nice when exactly at the appointed time the forwarder called and announced the arrival! Even more admired the taste and freshness of the cakes! Unparalleled freshness and naturalness of products! Thank you!
+                    </div>
+                    <div class="review__item__down-content">
+                        <div class="review__avatar">
+                            <img src="./img/review_avatar.svg" alt="">
+                        </div>
+                        <div class="review__name">
+                            Ilya Deryn
+                        </div>
+                        <div class="review__data">
+                            12.12.2021
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="question">
+            <div class="question__bg">
+                <div class="container">
+                    <div class="question__title">
+                        Remaining questions?
+                    </div>
+                    <div class="question__subtitle">
+                        Provide your contact details
+                    </div>
+                    <div class="question__contacts-box">
+                        <div class="question__input-name__box"><input class="question__input-name" type="text" placeholder="Your name.."></div>
+                        <div class="question__input-number__box"><input class="question__input-number" type="number" placeholder="Your phone number.."></div>
+                        <button><a href="#">Contact me</a></button>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__content__left">
+                    <div class="footer__logo">
+                        <img src="img/Logo.png" alt="">
+                    </div>
+                        <ul class="footer__menu">
+                            <li><a href="#">Home</a></li>
+                            <li><span>Assortments</span>
+                                <ul>
+                                    <li><a href="#">Cakes</a></li>
+                                    <li><a href="#">Macaroon</a></li>
+                                    <li><a href="#">Wedding Cakes</a></li>
+                                    <li><a href="#">Cupcakes</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                </div>
+                <div class="footer__contacts">
+                    <div class="footer__contacts__title">
+                        Our contacts
+                    </div>
+                    <div class="footer__contacts__numbers">
+                        <div>+ 38 (099) 788-38-77</div>
+                        <div>+ 38 (063) 856-93-70</div>
+                    </div>
+                    <div class="footer__contacts__social">
+                        <a href="#"><img src="img/foot_youtube.svg" alt="icon youtube"></a>
+                        <a href="#"><img src="img/foot_in.svg" alt="icon linkedin"></a>
+                        <a href="#"><img src="img/foot__fb.svg" alt="icon facebook"></a>
+                        <a href="#"><img src="img/foot_insta.svg" alt="icon instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+</html>
